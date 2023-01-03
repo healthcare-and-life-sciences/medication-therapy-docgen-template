@@ -1,5 +1,5 @@
 ![](/images/ahlsbanner.png)
-# A-HLS MTM Doc Gen Documentation 
+# A-HLS Medication Therapy Doc Gen Documentation 
 
 ## Overview
 
@@ -57,7 +57,7 @@ This is a package that when installed will allow customers who are using the new
 
 1. Install the [unmanaged Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000VMOx&isdtp=p1)
 
-2. Import the MTMCreateDocument datapack from the following GitHub repository: https://github.com/healthcare-and-life-sciences/MTM
+2. Import the MTMCreateDocument datapack from the following GitHub repository: https://github.com/healthcare-and-life-sciences/medication-therapy-docgen-template
 
 3. Activate both of the Document Templates
 
