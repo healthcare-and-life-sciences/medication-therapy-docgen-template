@@ -1,3 +1,4 @@
+![](/images/ahlsbanner.png)
 # A-HLS MTM Doc Gen Documentation 
 
 ## Overview
@@ -85,7 +86,9 @@ This is a package that when installed will allow customers who are using the new
 
     3. Paste the code below:
 
-    4. /lightning/cmp/omnistudio__vlocityLWCOmniWrapper?c__target=c:mtmCreateDocumentCreateDocumentEnglish&c__layout=lightning&c__tabIcon=custom:custom18&c__TemplateType=MicrosoftWord&c__ObjectId={!MedicationTherapyReview.Id
+    4. `/lightning/cmp/omnistudio__vlocityLWCOmniWrapper?c__target=c:mtmCreateDocumentCreateDocumentEnglish&c__layout=lightning&c__tabIcon=custom:custom18&c__TemplateType=MicrosoftWord&c__ObjectId={!MedicationTherapyReview.Id`
+    
+    ![](/images/mtmimage1.png)
 
     5. Open the **Page Layout** for the **MedicationTherapyResponse** Object 
 
@@ -98,7 +101,10 @@ This is a package that when installed will allow customers who are using the new
 
 ## Included Document Template Details
 
-
+![](/images/mtmimage2.png)
+![](/images/mtmimage3.png)
+![](/images/mtmimage4.png)
+![](/images/mtmimage5.png)
 
 ------
 
