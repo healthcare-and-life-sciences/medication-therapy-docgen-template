@@ -9,8 +9,14 @@ This is a package that when installed will allow customers who are using the new
 
 ## Business Benefits:
 
-- Decreased IT spend
-- Increased efficiency
+The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/MTM) requires MTM Providers to generate a summary document to be sent to the patient after a Comprehensive Medication Review (CMR) is conducted.  CMS requires MTM Providers to adhere to the Standardized Format (https://www.cms.gov/files/zip/mtm-program-standardized-format-and-technical-instructions-v2222022.zip)for this summary document.  This accelerator, allows Health Cloud customers to:
+
+* Leverage a pre-built MTM Document template which includes a Cover Letter, the Recommended To Do items identified by the MTM Provider during the CMR consultation, and the Patient Medication List. 
+* Leverage pre-built data mappings within the template to get the needed information from the Health Cloud data model into the document that is generated for each patient. 
+* Clone this template and make changes to the template as needed.
+* Leverage a pre-built method of kicking off the generation of the template directly from the Medication Therapy Review record of each patient. 
+
+
 
 ------
 
