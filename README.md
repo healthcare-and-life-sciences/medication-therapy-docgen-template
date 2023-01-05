@@ -24,11 +24,18 @@ The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Pres
 
 ### Primary Industry:
 
-- Pharma
+* Healthcare Insurance (Payers) / MTM Providers 
 
 ### Primary User Persona:
 
-- Patient Services
+* Pharmacist or other qualified health professional. 
+
+### User Workflow:
+
+* Pharmacist (or other qualified health professional) conducts a Comprehensive Medication Review (CMR) with a patient
+* After completing the CMR, the Pharmacist (or other qualified health professional), generates the MTM Summary Document from the Medication Therapy Review record of the patient. 
+
+
 
 ------
 
