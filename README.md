@@ -91,7 +91,7 @@ The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Pres
 
 10. Activate the **MTMCreateDocument** OmniScript.
 
-11. From **Setup** > Object Manager, open the **MedicationTherapyResponse** Object
+11. From **Setup** > Object Manager, open the **MedicationTherapyReview** Object
 
 12. 1. Select “**Buttons, Links and Actions**”.  
 
@@ -103,7 +103,7 @@ The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Pres
     
     ![](/images/mtmimage1.png)
 
-    5. Open the **Page Layout** for the **MedicationTherapyResponse** Object 
+    5. Open the **Page Layout** for the **MedicationTherapyReview** Object 
 
     6. 1. Drag the **Generate Document Button** into the **Custom Button** section
        2. Click **Save**
