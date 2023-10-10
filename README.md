@@ -51,10 +51,6 @@ The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Pres
 - getMTMData - Used to extract all the data for the Document
 - MTM - Transform used for Document Generation
 
-### **Custom Components (1)**
-
-- Unmanaged Package that includes the custom Apex Class required→ https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000VMOx&isdtp=p1
-
 ------
 
 ## Configuration Requirements
@@ -68,32 +64,30 @@ The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Pres
 
 ### Install Configuration Steps:
 
-1. Install the [unmanaged Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000VMOx&isdtp=p1)
+1. Import the MTMCreateDocument datapack from the following GitHub repository: https://github.com/healthcare-and-life-sciences/medication-therapy-docgen-template
 
-2. Import the MTMCreateDocument datapack from the following GitHub repository: https://github.com/healthcare-and-life-sciences/medication-therapy-docgen-template
+2. Activate both of the Document Templates
 
-3. Activate both of the Document Templates
+3. Navigate to the **FindTemplateIDs** DataRaptor
 
-4. Navigate to the **FindTemplateIDs** DataRaptor
-
-5. 1. Click on Preview
+4. 1. Click on Preview
    2. Execute the DataRaptor
    3. Copy the **first section** of response to the clipboard.  
 
-6. Navigate to the **MTMCreateDocument** OmniScript
+5. Navigate to the **MTMCreateDocument** OmniScript
 
-7. 1. In the step labeled “**setTemplateHERE**” click “**Edit Properties as JSON**” and then paste in the data from the step above in the **selectedTemplate** section. Click “**Close JSON Editor**“
+6. 1. In the step labeled “**setTemplateHERE**” click “**Edit Properties as JSON**” and then paste in the data from the step above in the **selectedTemplate** section. Click “**Close JSON Editor**“
 
-8. Go back to the **FindTemplateIDs** DataRaptor
+7. Go back to the **FindTemplateIDs** DataRaptor
 
-9. 1. Copy the second section of response
+8. 1. Copy the second section of response
    2. Paste it in the **switchToSpanishTemplateHERE** step of the **MTMCreateDocument** OmniScript in the same way. 
 
-10. Activate the **MTMCreateDocument** OmniScript.
+9. Activate the **MTMCreateDocument** OmniScript.
 
-11. From **Setup** > Object Manager, open the **MedicationTherapyReview** Object
+10. From **Setup** > Object Manager, open the **MedicationTherapyReview** Object
 
-12. 1. Select “**Buttons, Links and Actions**”.  
+11. 1. Select “**Buttons, Links and Actions**”.  
 
     2. Create a new Button
 
@@ -108,7 +102,7 @@ The CMS Medication Therapy Management Program (https://www.cms.gov/Medicare/Pres
     6. 1. Drag the **Generate Document Button** into the **Custom Button** section
        2. Click **Save**
 
-13. Navigate to a **Medication Therapy Review** record and select **Generate Document** from the dropdown action menu. The document should generate as expected.
+12. Navigate to a **Medication Therapy Review** record and select **Generate Document** from the dropdown action menu. The document should generate as expected.
 
 ------
 
